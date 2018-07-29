@@ -1,1 +1,1 @@
-# Demo theme
+# MOA theme
