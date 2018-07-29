@@ -1,11 +1,11 @@
 <?php
 
-class arDemoThemePluginConfiguration extends sfPluginConfiguration
+class arMoaThemePluginConfiguration extends sfPluginConfiguration
 {
   // Summary and version. AtoM recognizes any plugin as a theme as long as
   // the $summary string contains the word "theme" in it (case-insensitive).
   public static
-    $summary = 'Demo Theme plugin, extension of arDominionPlugin. Cross-browser compatibility tested. Based in Twitter Bootstrap 2.0, 940px two-column layout, slightly responsive.',
+    $summary = 'MOA Theme plugin, extension of arDominionPlugin. Cross-browser compatibility tested. Based in Twitter Bootstrap 2.0, 940px two-column layout, slightly responsive.',
     $version = '0.0.1';
 
   public function contextLoadFactories(sfEvent $event)
@@ -17,11 +17,11 @@ class arDemoThemePluginConfiguration extends sfPluginConfiguration
     if ($context->getConfiguration()->isDebug())
     {
       $context->response->addJavaScript('/vendor/less.js');
-      $context->response->addStylesheet('/plugins/arDemoThemePlugin/css/main.less', 'last', array('rel' => 'stylesheet/less', 'type' => 'text/css', 'media' => 'all'));
+      $context->response->addStylesheet('/plugins/arMoaThemePlugin/css/main.less', 'last', array('rel' => 'stylesheet/less', 'type' => 'text/css', 'media' => 'all'));
     }
     else
     {
-      $context->response->addStylesheet('/plugins/arDemoThemePlugin/css/main.css', 'last', array('media' => 'all'));
+      $context->response->addStylesheet('/plugins/arMoaThemePlugin/css/main.css', 'last', array('media' => 'all'));
     }
   }
 
