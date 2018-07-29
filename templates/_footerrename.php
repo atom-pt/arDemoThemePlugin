@@ -26,7 +26,7 @@
 
       <div class="span3 offset3">
         <h5>Powered by</h5>
-        <a href="http://www.accesstomemory.org"><?php echo image_tag('/plugins/arDemoThemePlugin/images/atom-logo.png', array('id' => 'atom-logo')) ?></a>
+        <a href="http://www.accesstomemory.org"><?php echo image_tag('/plugins/arMoaThemePlugin/images/atom-logo.png', array('id' => 'atom-logo')) ?></a>
       </div>
 
     </div>
