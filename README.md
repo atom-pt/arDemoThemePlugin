@@ -2,7 +2,7 @@
 
 # Install instructions
 
-1. Goto your AtoM plugin dir, by default:
+1. Goto your AtoM plugins dir, by default:
 
 cd /usr/share/nginx/atom/plugins
 
