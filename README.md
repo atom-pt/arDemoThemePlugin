@@ -14,7 +14,7 @@ sudo chown -R www-data:www-data arMoaThemePlugin
 
 ## 3. Make main.less
 
-cd /usr/share/nginx/atom/plugins/arMoaThemePlugin
+cd arMoaThemePlugin
 
 sudo make
 
